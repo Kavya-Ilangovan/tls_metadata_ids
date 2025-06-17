@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-06-18-02-41-54
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1750193699.528105	27452fa6a1be17c9738151ed60b066827196d3726dbdf0835d7d3cb053de9c19	3	0A44762D3A10D96E856F5667B6B94E4D	CN=*.stripe.com,O=Stripe\\, Inc,L=South San Francisco,ST=California,C=US	CN=DigiCert TLS Hybrid ECC SHA384 2020 CA1,O=DigiCert Inc,C=US	1749580200.000000	1759429799.000000	id-ecPublicKey	ecdsa-with-SHA384	ecdsa	256	-	prime256v1	*.stripe.com,stripe.com	-	-	-	F	-	T	F
+1750193699.528105	f7a9a1b2fd964a3f2670bd668d561fb7c55d3aa9ab8391e7e169702db8a3dbcf	3	07F2F35C87A877AF7AEFE947993525BD	CN=DigiCert TLS Hybrid ECC SHA384 2020 CA1,O=DigiCert Inc,C=US	CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	1618338600.000000	1933871399.000000	id-ecPublicKey	sha384WithRSAEncryption	ecdsa	384	-	secp384r1	-	-	-	-	T	0	F	F
+1750193705.540917	b5d91035ab0922a34509c322682026e0406cca58d5c77f53a6050cc7dbce099d	3	031688C426F95B3B3DCB30DEFDC26BBD	CN=m.stripe.com,O=Stripe\\, Inc,L=South San Francisco,ST=California,C=US	CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	1749580200.000000	1758824999.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	m.stripe.com	-	-	-	F	-	T	F
+1750193705.540917	52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14	3	06D8D904D5584346F68A2FA754227EC4	CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	1618338600.000000	1933871399.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2025-06-18-02-41-55

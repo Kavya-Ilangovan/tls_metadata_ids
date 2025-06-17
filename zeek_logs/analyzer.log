@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-06-18-02-41-54
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1750193727.416350	violation	protocol	QUIC	CF1NOc2GhdnmyPxPIb	-	2401:4900:232e:a67f:e82d:58b1:ea2c:c209	57839	2404:6800:4007:802::2001	443	expected 3 bytes (0 available) (/private/tmp/zeek-20250522-7815-ik6m13/zeek-7.2.1/src/analyzer/protocol/quic/QUIC.spicy:479:5-479:50)	\xc8\x00\x00\x00\x01\x0c7\x98\x17\xe3\xe4\xccY\x01\x99\xe7\xd9\x7f\x03\xc1zG@G\x00\x80\xb3R%Wn\xfe)\x11\xf4h\x89\x13\xda\x8d
+#close	2025-06-18-02-41-55
